@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import app from './firebass/Firebass';
+import { getAuth } from "firebase/auth";
 
+
+const auth = getAuth(app)
 function App() {
   return (
     <div className="App">
